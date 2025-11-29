@@ -1,6 +1,6 @@
 # 👗 Gen AI Virtual Try-On Clothes
 
-A cutting-edge, Gen AI-powered virtual try-on web application that enables users to upload a person (model) image and a clothing item image to generate photorealistic try-on previews in seconds. Built using Google Gemini (Generative AI) and FastAPI, this tool delivers high-fidelity outfit visualization, facial identity preservation, background replacement, and seamless garment rendering—perfect for fashion tech, e-commerce, and virtual fitting room experiences.
+he Virtual Dress Try-On System is an AI-powered application that allows users to visualize how different outfits look on them without physically wearing the clothes. The system uses deep learning, image processing, and virtual try-on models to generate realistic dress-fitting results on the user’s body.
 
 ---
 
@@ -73,7 +73,7 @@ uvicorn main:app --reload
 ```bash
 cd frontend
 npm install
-npm run dev
+
 ```
 
 ---
@@ -107,18 +107,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ---
 
-## 📄 LICENSE:
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
-
----
-
-## 💡 Inspiration
-
-This was built to explore fashion AI possibilities using state-of-the-art multimodal LLMs like **Google Gemini**.
-
----
-
-## 🙋‍♂️ Author
-
-**Narender Keswani**  
-🔗 [GitHub](https://github.com/narender-rk10) | 💼 [LinkedIn](https://linkedin.com/in/narender-keswani) | 🌐 [Website](https://www.narenderkeswani.com)
