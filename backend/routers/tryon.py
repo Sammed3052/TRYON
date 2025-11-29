@@ -9,6 +9,8 @@ import traceback
 import base64
 
 load_dotenv()
+os.environ["GOOGLE_CLOUD_PROJECT"] = "gen-lang-client-0388641584"
+
 
 router = APIRouter()
 

@@ -16,19 +16,7 @@ const Footer = ({ isDarkMode }) => {
       }}
     >
       <Text style={{ color: textColor, fontSize: 14 }}>
-        Developed by{" "}
-        <a
-          href="https://www.narenderkeswani.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            color: textColor,
-            textDecoration: "underline",
-            fontWeight: 500,
-          }}
-        >
-          Narender Keswani
-        </a>{" "}
+        Developed by Ashrita N Sarkar
         • All rights reserved © {new Date().getFullYear()}
       </Text>
     </footer>

@@ -59,9 +59,15 @@ const ImageUpload = ({ label, onImageChange, isDarkMode = false }) => {
             <img
               src={preview}
               alt="Preview"
-              className="h-[200px] w-[200px] object-contain rounded-lg shadow-md"
-              style={{ display: "block" }}
+              className="rounded-lg shadow-md"
+              style={{
+                maxWidth: "100%",
+                maxHeight: 220,
+                objectFit: "contain",
+                borderRadius: 12,
+              }}
             />
+
 
             <CloseCircleOutlined
               onClick={handleRemove}
